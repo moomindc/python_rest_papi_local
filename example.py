@@ -1,5 +1,6 @@
 # DRC this is a small application that will consume the SecureData RESTful web services
 # -------------------------------------------------------------------------------- 
+# -------------------------------------------------------------------------------- 
 # curl -v -k -X POST https://voltage-pp-0000.dataprotection.voltage.com/vibesimple/rest/v1/protect 
 #-H'Content-Type:application/json' 
 #-H'Authorization:VSAuth vsauth_method="sharedSecret",vsauth_data="dm9sdGFnZTEyMw==",vsauth_identity_ascii="securityops@makemytrip.com",vsauth_version="200"' -d '{"format":"CC", "data":["1111-2222-3333-4444","4444-3333-2222-1111", "38520000023237"]}'

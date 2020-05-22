@@ -29,7 +29,8 @@ print (r.status_code)
 # call PAPI
 
 # zips test
-with ZipFile("trustStore.zip", "r") as zipObj:
+# with ZipFile("trustStore.zip", "r") as zipObj:
+with ZipFile("/home/dan/python_rest_papi_local/trustStore.zip", "r") as zipObj:
 # Extract all the contents of zip file in different directory
     # printing all the contents of the zip file 
     #zip.printdir() 
